@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useDispatch } from "react-redux";
-import {add} from  "../Store/cartSlice"
+import {add,remove} from  "../Store/cartSlice"
 
 const Product = () => {
   let [products, setProducts] = useState([]);
